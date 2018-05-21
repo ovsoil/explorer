@@ -1,14 +1,13 @@
-# ETCExplorer
+# ATNExplorer
 
+Fork from  [ETC Block Explorer](https://github.com/ethereumproject/explorer)
 <b>Live Version: [etherhub.io](http://etherhub.io)</b>
-
-Follow the project progress at: [ETC Block Explorer Development](https://github.com/ethereumproject/explorer)
 
 ## Local installation
 
 Clone the repo
 
-`git clone https://github.com/ethereumproject/explorer`
+`git clone https://github.com/ovsoil/explorer`
 
 Download [Nodejs and npm](https://docs.npmjs.com/getting-started/installing-node "Nodejs install") if you don't have them
 
@@ -42,10 +41,10 @@ Basic settings:
     "patch":        true,
     "patchBlocks":  100,
     "settings": {
-        "symbol": "ETC",
-        "name": "Ethereum Classic",
-        "title": "Ethereum Classic Block Explorer",
-        "author": "Elaine"
+        "symbol": "ATN",
+        "name": "ATN coin",
+        "title": "ATMatrix Blockchain Explorer",
+        "author": "ATMatrix"
     }
 }
 
