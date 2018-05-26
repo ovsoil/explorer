@@ -6,19 +6,5 @@
     "quiet":        true,
     "syncAll":      true,
     "patch":        true,
-    "patchBlocks":  100,
-    "settings": {
-        "symbol": "ATN",
-        "logo": "/img/logo.png",
-        "name": "ATN Coin",
-        "title": "ATMatrix Blockchain Explorer",
-        "author": "ATMatrix",
-        "about": "ATMatrix BlockChain for Medical Alliance",
-        "github": "https://github.com/atmatrix",
-        "twitter": "https://twitter.com/atn_io",
-        "reddit": "https://www.reddit.com/r/ATN/",
-        "email": "contact@atmatrix.org",
-        "wechat": "ATMatrixI",
-        "qq": "652509213"
-    }
+    "patchBlocks":  100
 }

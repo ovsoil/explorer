@@ -11,14 +11,11 @@ var bodyParser = require('body-parser');
 var config = {};
 try {
   config = require('./config.json');
+  settings = require('./settings.json');
+  config.settings = settings;
 } catch(e) {
-  if (e.code == 'MODULE_NOT_FOUND') {
-    console.log('No config file found. Using default configuration... (tools/config.json)');
-    config = require('./tools/config.json');
-  } else {
     throw e;
     process.exit(1);
-  }
 }
 
 var app = express();
